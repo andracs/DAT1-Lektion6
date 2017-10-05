@@ -14,14 +14,19 @@ public class MainTheCap {
         int tal = input.nextInt();
 
 
-        if (tal%5==0){
+        if ((tal%2==0)&&(tal%5==0)){
             System.out.println("HiFive");
+            System.out.println("HiEven");
 
         }else if (tal%2==0){
             System.out.println("HiEven");
 
-        }else{
+        }else if (tal%5==0){
+            System.out.println("HiFive");
+
+        }else {
             System.out.println("Failure! Try again!");
+
         }
 
 
