@@ -1,0 +1,2 @@
+# DAT1-Lektion6
+MIN PACKAGE ER MADSTHECAPTAIN!!!!!!!!
