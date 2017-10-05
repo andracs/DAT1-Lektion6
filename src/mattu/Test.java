@@ -17,13 +17,12 @@ public class Test {
         if (number1 % 5 == 0) {
             System.out.println("HiFive");
 
-
         }
-        else if (number1 % 2 == 0){
+        if (number1 % 2 == 0) {
             System.out.println("HiEven");
         }
 
-        else {
+        if ((number1 % 5 != 0) && (number1 % 2 != 0)) {
             System.out.println("HiNothing");
         }
 
