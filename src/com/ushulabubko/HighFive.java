@@ -25,9 +25,9 @@ public class HighFive {                                 //here i define the name
             if ((deFive % 5 != 0) && (deFive % 2 != 0)) {    //here i have the final if statement and here i define the requirements for it
 
                 System.out.println("No luck my friend");    //here is the printline for this satement to print out if the condition is met
-            } else {
-                System.out.println("srry mate, zero wont do. O_O");  // if the input is 0 then the program will write this
             }
+        }else {
+            System.out.println("srry mate, zero wont do. O_O");  // if the input is 0 then the program will write this
         }
     }
 }
