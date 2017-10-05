@@ -19,10 +19,18 @@ public class GuessRandom {
 
         while (guess != guessNumber){
             System.out.println("det er forkert fister");
+            if (guess > guessNumber){
+                System.out.println("du har gættet for højt.");
+            }else if (guess < guessNumber){
+                System.out.println("du har gættet for lavt");
+            }
             System.out.println("prøv igen");
-            break;
+            guess = input.nextInt();
         }
 
+        if ( guess == guessNumber){
+            System.out.println("you did it !!!");
+        }
 
     }
 
