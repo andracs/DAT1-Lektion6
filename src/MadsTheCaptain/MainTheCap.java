@@ -25,7 +25,7 @@ public class MainTheCap {
             System.out.println("HiFive");
 
         }else {
-            System.out.println("Failure! Try again!");
+            System.out.println("HiNothing");
 
         }
 
