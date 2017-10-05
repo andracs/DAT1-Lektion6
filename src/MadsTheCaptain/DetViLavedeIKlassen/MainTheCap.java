@@ -1,4 +1,4 @@
-package MadsTheCaptain;
+package MadsTheCaptain.DetViLavedeIKlassen;
 
 import java.util.Scanner;
 
@@ -14,14 +14,14 @@ public class MainTheCap {
         int tal = input.nextInt();
 
 
-        if ((tal%2==0)&&(tal%5==0)){
+        if ((tal%2==0)&&(tal%5==0)&&(tal!=0)){
             System.out.println("HiFive");
             System.out.println("HiEven");
 
-        }else if (tal%2==0){
+        }else if (tal%2==0&&tal!=0){
             System.out.println("HiEven");
 
-        }else if (tal%5==0){
+        }else if (tal%5==0&&tal!=0){
             System.out.println("HiFive");
 
         }else {
