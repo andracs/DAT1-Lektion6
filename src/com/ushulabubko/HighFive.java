@@ -9,20 +9,25 @@ public class HighFive {                                 //here i define the name
         Scanner highFive = new Scanner(System.in);      //here i pull the use of a function in the class Scanner
         int deFive = highFive.nextInt();//here i finish the use of the scanner
 
-        if (deFive % 5 == 0){                           //here i am writing the first if statements requirement for the variable deFive
+        if (deFive != 0) {                                   // here im just stating that this line of if statements will only happen if the input is not 0
 
-            System.out.println("HiFive");               //here i write the if the statment is ment it will print out HiFive
-        }
+            if (deFive % 5 == 0) {                           //here i am writing the first if statements requirement for the variable deFive
 
-        if (deFive % 2 == 0){                           //here i am writing the second if statement requirement
+                System.out.println("HiFive");               //here i write the if the statment is ment it will print out HiFive
+            }
 
-            System.out.println("HiEven");               //here i write the print line if requirements for the if statement are ment
-        }
+            if (deFive % 2 == 0) {                           //here i am writing the second if statement requirement
+
+                System.out.println("HiEven");               //here i write the print line if requirements for the if statement are ment
+            }
 
 
-        if ((deFive % 5 != 0) && (deFive % 2 != 0)){    //here i have the final if statement and here i define the requirements for it
+            if ((deFive % 5 != 0) && (deFive % 2 != 0)) {    //here i have the final if statement and here i define the requirements for it
 
-            System.out.println("No luck my friend");    //here is the printline for this satement to print out if the condition is met
+                System.out.println("No luck my friend");    //here is the printline for this satement to print out if the condition is met
+            } else {
+                System.out.println("srry mate, zero wont do. O_O");  // if the input is 0 then the program will write this
+            }
         }
     }
 }
