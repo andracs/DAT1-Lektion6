@@ -1,7 +1,5 @@
 package erik2310;
 
-import com.sun.java.swing.plaf.windows.WindowsInternalFrameTitlePane;
-
 import java.util.Scanner;
 
 public class GuessNumber {
