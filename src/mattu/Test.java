@@ -13,18 +13,33 @@ public class Test {
         System.out.println("Indtast et tal: ");
         int number1 = input.nextInt();
 
+        // Udskriver HiNothing hvis tallet er 0
+        if (number1 != 0){
+            if (number1 % 5 == 0) {
+                System.out.println("HiFive");
 
-        if (number1 % 5 == 0) {
-            System.out.println("HiFive");
-
-        }
+            }
         if (number1 % 2 == 0) {
             System.out.println("HiEven");
         }
 
-        if ((number1 % 5 != 0) && (number1 % 2 != 0)) {
+        boolean kanDelesMed2, kanDelesMed5;
+        kanDelesMed5 = (number1 % 5 == 0);
+        kanDelesMed2 = (number1 % 2 == 0);
+
+        if ((!kanDelesMed2) && (!kanDelesMed5)) {
             System.out.println("HiNothing");
         }
 
+        //if ((number1 % 5 != 0) && (number1 % 2 != 0)) {
+          //  System.out.println("HiNothing");
+        //}
+
+        }else {
+            System.out.println("Intet går op i 0");
+        }
+
+        boolean b = !true;
+        System.out.println("IKKE sandt (!true) er " + b + ".");
     }
 }
