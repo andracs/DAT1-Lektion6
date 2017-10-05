@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class GuessTheNumber {
     public static void main(String[] args) {
         //System.out.println("Hello world.");
-
+        //DET VIRKER IKKE//DET VIRKER IKKE//DET VIRKER IKKE//DET VIRKER IKKE//DET VIRKER IKKE
+        //DET VIRKER IKKE//DET VIRKER IKKE//DET VIRKER IKKE//DET VIRKER IKKE//DET VIRKER IKKE
         System.out.println("Guess a number: ");
         int random = (int)(Math.random() * 101);
         Scanner input = new Scanner(System.in);
